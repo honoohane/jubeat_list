@@ -1,0 +1,422 @@
+/*ロゴ画像を変更したい場合は、以下のURLをロゴのURLに書き換えてください。*/
+
+#atwiki-jp-bg1 {
+	background: transparent url(/common/_img/atwiki_logo_small.svg) no-repeat scroll 0 0;
+	padding-left: 130px;
+	height: 100px;
+}
+#header a#atwiki-jp-bg1 {
+	height: 100px;
+	width: 100px;
+}
+
+/*ads*/
+
+.gafc_on{
+	background-color:#FEFF8F;
+}
+
+.gafc_domain{
+	color:green;
+}
+
+/* ページ下部の編集メニューを表示したい場合はユーザCSSに以下の１行を追加してください。
+
+ #toolbar{display:block;}
+
+ */
+
+body {
+	background:#fff;
+	color:#666;
+	font-family:arial,helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"MS Pゴシック",clean,sans-serif;
+	font-size:13px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:normal;
+}
+
+body {
+	line-height:1.5;
+}
+
+a:link,a:visited{
+	color:#480;
+}
+a:hover, a:active{
+	color:#FFA500;
+}
+
+
+.box:after {
+	clear:both;
+	content:".";
+	display:block;
+	height:0pt;
+	visibility:hidden;
+}
+.box{
+	zoom:100%;
+}
+
+/**/
+
+#header{
+    padding-top: 20px;
+	margin:0px 25px 15px 25px;
+	border-bottom:3px solid #FFA500;
+	height:130px;
+}
+
+#header a#atwiki-jp-bg1 {
+	display:block;
+	float:left;
+	margin:20px 25px 20px 5px;
+}
+
+#header h1,
+#header h2{
+	margin:0;
+	padding:0;
+	line-height:1;
+}
+
+#header h1{
+	padding-top:20px;
+	padding-bottom:4px;
+}
+
+
+#header h1 a{
+	color:#6c0;
+	font-size:40px;
+	text-decoration:none;
+	line-height:1;
+}
+
+#header h2 a{
+	color:#333;
+	font-size:15px;
+	text-decoration:none;
+	line-height:1;
+}
+
+#container {
+	min-width: 1100px;
+	_width:1100px;
+	text-align:left;
+}
+
+#wrapper {
+}
+
+#footer,
+#toolbar {
+	width:100%;
+	clear:left;
+}
+
+#toolbar{
+	display:none;
+}
+
+#contents {
+	margin-right:25px;
+	margin-left:214px;
+	_margin-left:264px;
+	border:2px dotted #FFA500;
+	padding:10px;
+	overflow:hidden;
+	min-width: 800px;
+}
+
+#menubar {
+	margin-left: 20px;
+	width:210px;
+	float:left;
+	overflow:hidden;
+	padding:10px;
+}
+
+#menubar2 {
+ width:165px;
+ float:left;
+ overflow:hidden;
+ /* border:2px dotted #FFA500; */
+}
+
+#menubar_inner,
+#menubar_inner2{
+	padding:10px;
+}
+
+
+.menu fieldset{
+	width:180px;
+	overflow:hidden;
+}
+
+.menu select{
+	max-width:180px;
+}
+.menu input{
+	max-width:180px;
+}
+.menu textarea{
+	max-width:180px;
+	background:#fff;
+}
+
+#footer_inner{
+	padding:10px 25px;
+}
+#toolbar_inner{
+	padding:10px 25px 0 25px;
+}
+
+
+/* General Rules */
+
+
+p,
+dl,
+multicol{
+	display: block;
+	margin: 1em 0;
+}
+dd{
+	display: block;
+	margin-left: 20px;
+}
+dt{
+	font-weight:bold;
+}
+blockquote{
+	display: block;
+	margin: 1em;
+}
+address{
+	display: block;
+	font-style: italic;
+}
+center{
+	display: block;
+	text-align: center;
+}
+h1{
+	margin: 13px 0;
+	font-size:167%;
+	font-weight:bold;
+}
+h2{
+	margin: 13px 0;
+	font-size:152%;
+	font-weight:bold;
+}
+h3{
+	margin: 13px 0;
+	font-size:144%;
+	font-weight:bold;
+}
+h4{
+	margin: 13px 0;
+	font-size:129%;
+	font-weight:bold;
+}
+h5{
+	margin: 13px 0;
+	font-size:114%;
+	font-weight:bold;
+}
+h6{
+	margin: 13px 0;
+	font-size:100%;
+	font-weight:bold;
+}
+
+xmp,
+pre,
+plaintext{
+	display: block;
+	font-family: fixed;
+	margin: 1em 0;
+	white-space: -moz-pre-wrap; /* Mozilla */
+	white-space: -pre-wrap; 		/* Opera 4-6 */
+	white-space: -o-pre-wrap; 	/* Opera 7 */
+	white-space: pre-wrap;			/* CSS3 */
+	word-wrap: break-word;			/* IE 5.5+ */
+}
+
+table{
+	display: table;
+	border-spacing: 2px;
+	border-collapse: collapse;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	-moz-box-sizing: border-box;
+	text-indent: 0;
+	border:1px solid #aaa;
+}
+
+caption{
+	display: table-caption;
+	text-align: center;
+}
+
+tr{
+	display: table-row;
+	vertical-align: inherit;
+}
+col{
+	display: table-column;
+}
+colgroup{
+	display: table-column-group;
+}
+tbody{
+	display: table-row-group;
+	vertical-align: middle;
+}
+thead{
+	display: table-header-group;
+	vertical-align: middle;
+}
+
+tfoot{
+	display: table-footer-group;
+	vertical-align: middle;
+}
+table > tr{
+	vertical-align: middle;
+}
+td{
+	display: table-cell;
+	vertical-align: inherit;
+	text-align: inherit;
+	padding: 3px;
+	border:1px solid #999;
+}
+th{
+	display: table-cell;
+	vertical-align: inherit;
+	font-weight: bold;
+	padding: 3px;
+	border:1px solid #999;
+}
+q:before{
+	content: open-quote;
+}
+q:after{
+	content: close-quote;
+}
+
+b,
+strong{
+	font-weight: bolder;
+}
+
+i,
+cite,
+em,
+var,
+dfn{
+	font-style: italic;
+}
+
+u,
+ins{
+	text-decoration: underline;
+}
+
+s,
+strike,
+del{
+	text-decoration: line-through;
+}
+
+sub{
+	vertical-align: sub;
+	font-size: smaller;
+	line-height: normal;
+}
+
+sup{
+	vertical-align: super;
+	font-size: smaller;
+	line-height: normal;
+}
+
+nobr{
+	white-space: nowrap;
+}
+
+ul{
+	display: block;
+	list-style-type: disc;
+	margin: 1em 0;
+	padding-left: 25px;
+}
+
+ol{
+	display: block;
+	list-style-type: decimal;
+	margin: 1em 0;
+	padding-left: 25px;
+}
+
+ li{
+	display: list-item;
+}
+
+ ul ul,
+ ul ol,
+ ul dl,
+ ol ul,
+ ol ol,
+ ol dl,
+ dl ul,
+ dl ol,
+ dl dl {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ ol ul,
+ ul ul{
+	list-style-type: circle;
+}
+
+ ol ol ul,
+ ol ul ul,
+ ul ol ul,
+ ul ul ul{
+	list-style-type: square;
+}
+
+ hr{
+	display: block;
+	height: 1px;
+	border: 1px 0;
+	margin: 0.5em auto 0.5em auto;
+}
+
+
+/**/
+
+ul {
+	list-style-image: url(/common/_img/skin/035col3/menu_arrow.gif);
+}
+
+pre{
+	background:#fd8;
+	padding:10px;
+	color:#333;
+}
+
+blockquote{
+	border-left:3px solid #FFA500;
+	padding-left:.5em;
+}
