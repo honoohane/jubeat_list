@@ -50,6 +50,6 @@ def parse_it(url):
 
 
 if __name__ == "__main__":
-    # url = 'https://w.atwiki.jp/jubeat/pages/1947.html'
-    url = 'file:///' + os.path.abspath('.') + '/wikipage.html'
+    url = 'https://w.atwiki.jp/jubeat/pages/1947.html'
+    # url = 'file:///' + os.path.abspath('.') + '/wikipage.html'
     parse_it(url)
