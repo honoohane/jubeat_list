@@ -35,10 +35,10 @@ def parse_it(url, append=False):
             break
 
     if append is False:
-        with open('jubeat_list.json', 'w', encoding='utf-8') as js:
+        with open('output/jubeat_list.json', 'w', encoding='utf-8') as js:
             json.dump(info_list, js, ensure_ascii=False)
-        pd.DataFrame(info_list).to_csv("jubeat_list.csv", index=False, encoding='utf_8_sig', quoting=1)
+        pd.DataFrame(info_list).to_csv("output/jubeat_list.csv", index=False, encoding='utf_8_sig', quoting=1)
     else:
-        with open('jubeat_list.json', 'a', encoding='utf-8') as js:
+        with open('output/jubeat_list.json', 'a', encoding='utf-8') as js:
             json.dump(info_list, js, ensure_ascii=False)
-        pd.DataFrame(info_list).to_csv("jubeat_list.csv", index=False, encoding='utf_8_sig', quoting=1, mode='a')
+        pd.DataFrame(info_list).to_csv("output/jubeat_list.csv", index=False, encoding='utf_8_sig', quoting=1, mode='a')

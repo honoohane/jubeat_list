@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_csv('jubeat_list.csv')
+data = pd.read_csv('output/jubeat_list.csv')
 output = pd.DataFrame(columns=['title', 'level', '体力', '发狂', '节奏', '手法', '认识'])
 
 for index, row in data.iterrows():

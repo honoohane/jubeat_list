@@ -1,5 +1,5 @@
-from parser import parse_it
-from export_suzuchan import export_suzuchan
+from script.parser import parse_it
+from script.export_suzuchan import export_suzuchan
 
 
 def main():
@@ -8,7 +8,7 @@ def main():
     parse_it(url_o)
     url_n = 'https://w.atwiki.jp/jubeat/pages/2223.html'
     parse_it(url_n, append=True)
-    export_suzuchan().to_csv("jubeat_list_per_chart.csv")
+    export_suzuchan()
 
 
 if __name__ == "__main__":
