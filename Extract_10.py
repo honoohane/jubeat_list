@@ -17,4 +17,4 @@ for index, row in data.iterrows():
             output = output.append({'title': row['title'], 'level': row['ext_level']}, ignore_index=True)
     flag = 0
 
-output.to_csv('jubeat_lv10.csv', index=False)
+output.to_csv('jubeat_lv10.csv', index=False, encoding='utf_8_sig', quoting=1)
