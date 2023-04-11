@@ -42,11 +42,3 @@ def parse_it(url, append=False):
         with open('jubeat_list.json', 'a', encoding='utf-8') as js:
             json.dump(info_list, js, ensure_ascii=False)
         pd.DataFrame(info_list).to_csv("jubeat_list.csv", index=False, encoding='utf_8_sig', quoting=1, mode='a')
-
-
-if __name__ == "__main__":
-    # url = 'file:///' + os.path.abspath('.') + '/wikipage.html'
-    url_o = 'https://w.atwiki.jp/jubeat/pages/2224.html'
-    parse_it(url_o)
-    url_n = 'https://w.atwiki.jp/jubeat/pages/2223.html'
-    parse_it(url_n, append=True)

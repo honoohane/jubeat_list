@@ -10,7 +10,3 @@ def export_suzuchan(csv="jubeat_list.csv"):
                                          (r.title, 'ext', r.ext_level)],
                                    columns=['title', 'difficulty', 'level'])
                       for _, r in df.iterrows()], ignore_index=True)
-
-
-if __name__ == "__main__":
-    export_suzuchan().to_csv("jubeat_list_per_chart.csv")
