@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdbd51ae-2df1-4158-a536-b126be73c025" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extract_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/Extract_10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/export_suzuchan.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/export_suzuchan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jubeat_list.csv" beforeDir="false" afterPath="$PROJECT_DIR$/script/output/jubeat_list.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jubeat_list.json" beforeDir="false" afterPath="$PROJECT_DIR$/script/output/jubeat_list.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jubeat_list_per_chart.csv" beforeDir="false" afterPath="$PROJECT_DIR$/script/output/jubeat_list_per_chart.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jubeat_lv10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/script/output/jubeat_lv10.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wikipage.html" beforeDir="false" afterPath="$PROJECT_DIR$/wikipage_files/wikipage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/Extract_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/Extract_10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/output/jubeat_list.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output/jubeat_list.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/output/jubeat_list.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/jubeat_list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/output/jubeat_list_per_chart.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output/jubeat_list_per_chart.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/output/jubeat_lv10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output/jubeat_lv10.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/parser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,44 +38,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sheng.zeng/Documents/jubeat_list&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/sheng.zeng/Documents/jubeat_list",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/script" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/wikipage_files" />
       <recent name="$PROJECT_DIR$/output" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="Extract_10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="jubeat_list" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/Extract_10.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="export_suzuchan (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jubeat_list" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jubeat_list" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jubeat_list" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,8 +132,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/parser.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/script/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="parser (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="jubeat_list" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/script/parser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.parser (1)" />
         <item itemvalue="Python.export_suzuchan (1)" />
         <item itemvalue="Python.export_suzuchan" />
-        <item itemvalue="Python.parser" />
-        <item itemvalue="Python.Extract_10" />
       </list>
     </recent_temporary>
   </component>

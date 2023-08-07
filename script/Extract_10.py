@@ -4,6 +4,7 @@ data = pd.read_csv('output/jubeat_list.csv')
 output = pd.DataFrame(columns=['title', 'level', '体力', '发狂', '节奏', '手法', '认识'])
 
 for index, row in data.iterrows():
+    flag = 0
     if row['bsc_level'] >= 10:
         output = output.append({'title': row['title'] + '(BSC)', 'level': row['bsc_level']}, ignore_index=True)
         flag = 1
@@ -15,6 +16,5 @@ for index, row in data.iterrows():
             output = output.append({'title': row['title'] + '(EXT)', 'level': row['ext_level']}, ignore_index=True)
         else:
             output = output.append({'title': row['title'], 'level': row['ext_level']}, ignore_index=True)
-    flag = 0
 
 output.to_csv('jubeat_lv10.csv', index=False, encoding='utf_8_sig', quoting=1)
