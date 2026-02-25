@@ -1,11 +1,12 @@
 import pandas as pd
-import requests
+import cloudscraper
 from bs4 import BeautifulSoup
 import json
 
 
 def parse_it(url, append=False):
-    response = requests.get(url)
+    scraper = cloudscraper.create_scraper()
+    response = scraper.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
 
     table_rows = soup.find_all('tr')
